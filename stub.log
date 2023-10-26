@@ -1,0 +1,43 @@
+Lockfile is up to date, resolution step is skipped
+Already up to date
+
+Done in 903ms
+
+> template-nexts-page-tailwind@0.1.0 build /Users/anusheel/github/imagine-bot/25-1253/f09f3615de2d2136c8a06989127350ac
+> next build
+
+
+   Linting and checking validity of types ...
+
+./components/Counter.tsx
+7:10  Warning: Invalid Tailwind CSS classnames order  tailwindcss/classnames-order
+8:11  Warning: Invalid Tailwind CSS classnames order  tailwindcss/classnames-order
+11:11  Warning: Invalid Tailwind CSS classnames order  tailwindcss/classnames-order
+17:11  Warning: Invalid Tailwind CSS classnames order  tailwindcss/classnames-order
+23:11  Warning: Invalid Tailwind CSS classnames order  tailwindcss/classnames-order
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Collecting page data ...
+   Generating static pages (0/3) ...
+ ✓ Generating static pages (3/3) 
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (pages)                              Size     First Load JS
+┌ ○ /                                      604 B          79.8 kB
+├   └ css/e7d3bab42d9af29d.css             613 B
+├   /_app                                  0 B            79.2 kB
+├ ○ /404                                   182 B          79.4 kB
+└ λ /api/hello                             0 B            79.2 kB
++ First Load JS shared by all              81 kB
+  ├ chunks/framework-d4c1bc1dfcb15ee7.js   45.3 kB
+  ├ chunks/main-920c6cf5bac58129.js        32.8 kB
+  ├ chunks/pages/_app-e99951292a1974c1.js  308 B
+  ├ chunks/webpack-fd8027ecb5121007.js     770 B
+  └ css/2a2ebe39113ef18f.css               1.86 kB
+
+λ  (Server)  server-side renders at runtime (uses getInitialProps or getServerSideProps)
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+
